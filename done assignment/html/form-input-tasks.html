@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <title>
+        form-input-tasks
+    </title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        form {
+            background-color: white;
+            margin-left: 400;
+            margin-right: 400;
+            padding: 20;
+        }
+
+        div {
+            padding-left: 200;
+        }
+    </style>
+</head>
+
+<body style="background-color:greenyellow;">
+    <h1>Survey Form</h1>
+
+    <form>
+        <p>Let us know how we can improve freeCodeCamp</p>
+        <div>
+            <label>
+                *NAME:
+            </label>
+            <input type="text" name="useranme" placeholder="Enter your name"><br><br>
+
+            <label>
+                *EMAIL:
+            </label>
+            <input type="email" name="useranme" placeholder="Enter your email"><br><br>
+
+            <label placeholder="Enter your age">
+                *AGE:
+            </label>
+            <input type="number" name="useranme" placeholder="Enter your age">
+            <br><br>
+        </div>
+
+        <label>
+            Which option best describe you current mode?
+        </label>
+        <select name="Role">
+            <option>Student</option>
+            <option>Employee</option>
+        </select>
+        <br><br>
+
+        <label>
+            *How likely is that you would recommend :
+        </label>
+        <label> <input type="radio" name="recommend" value="Definitely">Definitely</label>
+
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label> freeCodeCamp to a friend?</label>
+        <label><input type="radio" name="recommend" value="Maybe"> </label>
+        <label>Maybe </label>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" name="recommend" value="Not Sure">
+        <label>Not Sure </label>
+        <br><br>
+
+
+        <label>
+            What do you like in FCC :
+        </label> <select name="FCC">
+            <option>State an option </option>
+            <option>a</option>
+            <option>b</option>
+            <option>c </option>
+            <option>d </option>
+        </select>
+        <br><br>
+
+        <label>Thing that should be improve in future ?</label>
+        <label><input type="checkbox" name="improve_in_future" value="Front-end Project">Front-end Project</label>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label><input type="checkbox" name="improve_in_future" value="Back-end Project "> Back-end Project</label>
+        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <label><input type="checkbox" name="improve_in_future" value="Data Visualization"> Data Visualization</label>
+        <br><br>
+
+    </form>
+</body>
+
+</html>
